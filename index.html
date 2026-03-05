@@ -40,10 +40,13 @@
         .contact a:hover { color: #00FFFF; text-decoration: underline; }
         @media (max-width: 768px) {
             .video-bg { display: none; }
-            body { background: linear-gradient(135deg, #120209 0%, #1a0a2e 50%, #0d1117 100%); }
+            body { background: linear-gradient(135deg, #120209 0%, #1a0a2e 50%, #0d1117 100%); overflow: auto; }
+            .overlay { min-height: auto; padding: 2rem 0; }
             h1 { font-size: 1.6rem; }
             .tagline { font-size: 0.95rem; }
             .description { font-size: 0.95rem; }
+            .top { padding: 2rem 1.5rem 1rem; }
+            .bottom { padding: 1rem 1.5rem 2rem; }
         }
     </style>
 </head>
